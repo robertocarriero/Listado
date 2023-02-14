@@ -1,0 +1,65 @@
+body{
+     background: url(fondo1.png), #2fc7c7;;
+}
+#titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute; left: 24.5%; top: 10%;
+    padding-left: 10%;
+    padding-top: 0.3%;
+    border-style: ridge;
+    border-color: rgb(84, 84, 218);
+    border-width: 7px;
+    background-color: rgb(182, 101, 209);
+    color: white;
+    border-radius: 15px;
+}
+
+.contenedor{
+    width: 45%;
+    position: absolute; left: 29%; top: 40%;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    border-style: ridge;
+    border-color: rgb(84, 84, 218);
+    border-width: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.elemento {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+.elemento:last-child {
+    border-bottom: 0;
+}
+.contenedor1{
+    width: 45%;
+    height: 20%;
+    position: absolute; left: 27%; top: 70%;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    border-style: ridge;
+    border-color: rgb(84, 84, 218);
+    border-width: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding-left: 3%;
+}
+button{
+    border-radius: 18px;
+    margin-top: 4%;
+    margin-right: 5%;
+    border-style: ridge;
+    border-width: 4px;
+    border-color:  white;
+    background-color: rgb(84, 84, 218);
+    color: white;
+    
+}
